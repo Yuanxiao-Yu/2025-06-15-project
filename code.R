@@ -3,7 +3,7 @@ library(ez)
 library(ggplot2)
 
 read.csv("data_preprocessed.csv")
-df <- as.data.frame(data_preprocessed)
+data <- as.data.frame(data_preprocessed)
 
 
 # Reshape data to long format for amplitude (μV)
