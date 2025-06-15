@@ -48,7 +48,7 @@ summary(data_long_ms)
 # Assigning the Positions to their Groups
 p200_positions <- c("C3", "C4", "O1", "O2")
 n400_positions <- c("Pz", "CP3", "CP4", "CPz")
-p600_positions <- c("Pz", "T7", "T8")
+p600_positions <- c("Fz", "FCz", "Cz", "Pz", "T7", "T8")
 
 # Run ANOVA for a given ERP component and measure (amplitude | latency)
 run_anova <- function(data, measure, erp_name, positions) {
